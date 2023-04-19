@@ -45,6 +45,14 @@ resource "github_repository" "main" {
   vulnerability_alerts = var.vulnerability_alerts
 }
 
+resource "github_repository_pull_request" "example" {
+    base_repository = "htc-integration/HTC-QG-passed-to-failed"
+    base_ref        = "main"
+    head_ref        = "feature/test-green-to-red-qg"
+    title           = "My newest feature"
+    body            = "This will change everything"
+}
+
 # TODO: make this work in a sensible way
 # GitHub Branches can only be created on non-empty repositories.
 # see https://registry.terraform.io/providers/integrations/github/latest/docs/resources/branch
