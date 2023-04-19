@@ -1,3 +1,3 @@
-if (1 === 1) {
+if (true) {
     console.log("Result");
 }
