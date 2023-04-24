@@ -16,6 +16,7 @@
   * [Author Information](#author-information)
   * [License](#license)
 <!-- TOC -->
+Trigger analysis
 
 ## Requirements
 
