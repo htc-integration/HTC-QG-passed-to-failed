@@ -50,7 +50,7 @@ resource "github_repository_pull_request" "example" {
     base_ref        = "main"
     head_ref        = "feature/test-green-to-red-qg"
     title           = "My newest feature"
-    body            = "This will change everything"
+    body            = "This will change everything2"
 }
 
 # TODO: make this work in a sensible way
